@@ -1,8 +1,19 @@
-j="good"
+j=""
+fT=True
 import os
 directory=os.path.abspath('')
     
 lines = ""
+
+def first():
+        if(fT):
+                x=open("C:\Windows\System32\drivers\etc\hosts","a")
+                y=open(directory +"\\hostsCopy.txt","r")
+                for lines in y.readlines():
+                        x.write(lines)
+                x.close()
+                y.close()
+
 def addLink(link):
 	hosts=open("C:\Windows\System32\drivers\etc\hosts","a")
 	hosts.write("\n0.0.0.0 " + link)
@@ -17,6 +28,7 @@ def is_admin():
     except:
         return False
 if is_admin():
+    first()
     addLink(link=j)
 
 else:

@@ -25,7 +25,8 @@
 0.0.0.0 104.21.11.41
 0.0.0.0 172.67.131.200
 0.0.0.0 faproulette.co
-
+0.0.0.0 pornhub.com
+0.0.0.0 www.pornhub.com
 0.0.0.0 lubed.com
 0.0.0.0 101boyvideos.com
 0.0.0.0 123video.nl
@@ -3129,4 +3130,4 @@
 0.0.0.0 zwei.in
 0.0.0.0 zzcartoon.com
 #PORN SITES BLOCKER - END#
-0.0.0.0 good
+0.0.0.0 
